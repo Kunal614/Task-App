@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Enter Detail</title>
+
+    <link href="/assets/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+
+<body style="background-color: black;">
+
+    <h1 id="headder">
+        Task List
+    </h1>
+
+    <p id="detail">Here you can Add , Delete and Edit your Task</p>
+    <div id="fill">
+        <form method="POST" action="/">
+            <div>
+                <label for="Title">Title</label>
+                <input type="text" name="Title">
+            </div>
+            <div>
+
+                <label for=" description ">Description</label>
+                <input type="text" name="description" style="font-size:13pt; height:60px;" required>
+
+            </div>
+            <div>
+                <label for="date">
+                Date
+            </label>
+                <input type="date" name="date" required>
+            </div>
+            <div>
+                <label for="prior">Priority</label>
+                <input type="number" name="prior" maxlength="2" required>
+            </div>
+            <div>
+                <button type="submit" class="btn btn-success">Add</button>
+                <button type="reset" class="btn btn-danger">Reset</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="/assets/back.js"></script>
+
+    <div class="split right">
+        <div>
+            <form action="/edit" method="GET">
+                <button type="submit" class="btn btn-secondary" id="btn1">
+            Edit
+        </button>
+            </form>
+            <br><br>
+        </div>
+        <div>
+            <form method="GET" action="/delete">
+                <button type="submit " class="btn btn-secondary " id="btn2 ">
+          Delete
+        </button>
+            </form>
+            <br><br>
+        </div>
+        <div>
+            <form method="GET" action="/view">
+                <button type="submit " class="btn btn-secondary " id="btn2 ">
+           View
+        </button>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

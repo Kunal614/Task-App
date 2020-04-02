@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Click ok
+    </title>
+    <link href="/assets/style3.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <body style="background-color: black;">
+
+        <h1 id="headder">
+            Task List
+        </h1>
+        <p id="detail">Here you can Add , Delete and Edit your Task</p>
+        <div id="ok">
+            <form method="GET" action="/update" onsubmit="wait()">
+                <label for="ok">Click Proceed or Back to Home</label>
+                <button type="submit" class="btn btn-success">Proceed To Edit</button>
+
+            </form>
+            <form method="GET" action="/">
+                <button type="submit" class="btn btn-secondary">Home</button>
+            </form>
+        </div>
+        <script src="/assets/back.js"></script>
+        <script>
+            wait = function() {
+                setTimeout(function() {
+                        console.log("eds");
+                    }, 10000) // wait for 3 second them function run
+
+
+            }
+        </script>
+    </body>
+
+</html>
