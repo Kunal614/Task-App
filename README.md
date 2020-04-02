@@ -5,7 +5,7 @@ For Edit button you have to add any task , then go for edit.
 
 # Install Module
    
-   * install npm - sudo apt install npm
+   * install nodejs - sudo apt install nodejs
    * install express - npm install express -save
    * install node-fetch - npm install node-fetch -save
    * install firebase  - npm install firebase -save
