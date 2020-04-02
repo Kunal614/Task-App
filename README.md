@@ -18,7 +18,15 @@ If you want to change the port , then got to app.js and in the bottom change app
   * Then put your local address in any browser 
   * Then do what ever want to do.
   
-  
+![Run](https://github.com/Kunal614/Task-App/blob/master/Images/Screenshot%20from%202020-04-02%2021-43-39.png)
+
+![ADD](https://github.com/Kunal614/Task-App/blob/master/Images/Screenshot%20from%202020-04-02%2021-43-55.png)
+
+![Edit](https://github.com/Kunal614/Task-App/blob/master/Images/Screenshot%20from%202020-04-02%2021-44-07.png)
+
+![update](https://github.com/Kunal614/Task-App/blob/master/Images/Screenshot%20from%202020-04-02%2021-44-16.png)
+
+![View](https://github.com/Kunal614/Task-App/blob/master/Images/Screenshot%20from%202020-04-02%2021-44-31.png)
    
    
    
